@@ -20,4 +20,15 @@ console.log("Null:", myNull);
 let myUndefined;
 console.log("Undefined:", myUndefined);
 
+// 2. Non-Primitive Data Types
 
+// Object - Used to store key-value pairs
+let myObject = {
+    name: "John",
+    age: 30
+};
+console.log("Object:", myObject);
+
+// Array - Used to store lists of items
+let myArray = [1, 2, 3, 4];
+console.log("Array:", myArray);
