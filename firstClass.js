@@ -32,3 +32,7 @@ console.log("Object:", myObject);
 // Array - Used to store lists of items
 let myArray = [1, 2, 3, 4];
 console.log("Array:", myArray);
+
+// Variables in JavaScript:
+// Variables are containers used to store data values. 
+// We can declare variables using var, let, or const.
