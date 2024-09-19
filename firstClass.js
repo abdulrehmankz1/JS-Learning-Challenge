@@ -44,3 +44,7 @@ console.log("Using var:", myVar);
 // 'let' - Modern way (can be updated but not redeclared in the same scope)
 let myLet = "This is a variable declared with let";
 console.log("Using let:", myLet);
+
+// 'const' - Used to declare variables that cannot be changed
+const myConst = "This is a variable declared with const";
+console.log("Using const:", myConst);
