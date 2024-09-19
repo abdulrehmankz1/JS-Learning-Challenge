@@ -40,3 +40,7 @@ console.log("Array:", myArray);
 // 'var' - Old way of declaring variables (can be updated and redeclared)
 var myVar = "This is a variable declared with var";
 console.log("Using var:", myVar);
+
+// 'let' - Modern way (can be updated but not redeclared in the same scope)
+let myLet = "This is a variable declared with let";
+console.log("Using let:", myLet);
