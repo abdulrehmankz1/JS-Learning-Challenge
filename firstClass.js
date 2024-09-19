@@ -36,3 +36,7 @@ console.log("Array:", myArray);
 // Variables in JavaScript:
 // Variables are containers used to store data values. 
 // We can declare variables using var, let, or const.
+
+// 'var' - Old way of declaring variables (can be updated and redeclared)
+var myVar = "This is a variable declared with var";
+console.log("Using var:", myVar);
