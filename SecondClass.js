@@ -27,3 +27,8 @@ console.log("Modulus: ", modulus);
 
 let exponentiation = a ** b;
 console.log("Exponentiation: ", exponentiation);
+
+
+// 2. Assignment Operators
+// Definition: Assignment operators are used to assign values to variables
+//  They can also perform operations while assigning a value.
