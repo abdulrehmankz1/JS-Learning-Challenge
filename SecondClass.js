@@ -32,3 +32,23 @@ console.log("Exponentiation: ", exponentiation);
 // 2. Assignment Operators
 // Definition: Assignment operators are used to assign values to variables
 //  They can also perform operations while assigning a value.
+
+let x = 10;
+
+x += 5;
+console.log("Addition Assignment (x += 5): ", x);
+
+x -= 3;
+console.log("Subtraction Assignment (x -= 3): ", x);
+
+x *= 2; 
+console.log("Multiplication Assignment (x *= 2): ", x); 
+
+x /= 4;
+console.log("Division Assignment (x /= 4): ", x);
+
+x %= 5;
+console.log("Modulus Assignment (x %= 5): ", x); 
+
+x **= 3; 
+console.log("Exponentiation Assignment (x **= 3): ", x);
