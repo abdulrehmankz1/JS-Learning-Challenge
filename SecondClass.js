@@ -7,4 +7,23 @@
 // Definition: Arithmetic operators are used to perform mathematical calculations such as addition,
 //  subtraction, multiplication, and division.
 
+let a = 10;
+let b = 5;
 
+let addition = a + b; 
+console.log("Addition: ", addition);
+
+let subtraction = a - b;
+console.log("Subtraction: ", subtraction); 
+
+let multiplication = a * b; 
+console.log("Multiplication: ", multiplication); 
+
+let division = a / b; 
+console.log("Division: ", division);
+
+let modulus = a % b;
+console.log("Modulus: ", modulus);
+
+let exponentiation = a ** b;
+console.log("Exponentiation: ", exponentiation);
