@@ -52,3 +52,7 @@ console.log("Modulus Assignment (x %= 5): ", x);
 
 x **= 3; 
 console.log("Exponentiation Assignment (x **= 3): ", x);
+
+// 3. Comparison Operators
+// Definition: Comparison operators are used to compare two values, returning a Boolean value (true or false).
+
