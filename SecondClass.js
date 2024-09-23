@@ -88,3 +88,6 @@ console.log("Logical OR (||): ", orOperator);
 
 let notOperator = !condition1; // Logical NOT
 console.log("Logical NOT (!): ", notOperator);
+
+// 3. String Operators
+// Definition: The string operator (+) is used to concatenate (join) two or more strings.
