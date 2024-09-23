@@ -101,3 +101,8 @@ console.log("Full Name: ", fullName);
 // 4. Conditional (Ternary) Operator
 // Definition: The conditional (ternary) operator is a shorthand way to perform a conditional operation.
 // It takes three operands and returns one of two values based on a condition.
+
+let age = 19;
+
+let canVote = (age >= 18) ? "Yes, can vote" : "No, cannot vote"; // Ternary operator
+console.log("Can Vote: ", canVote);
