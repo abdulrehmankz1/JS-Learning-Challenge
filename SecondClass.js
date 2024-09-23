@@ -73,3 +73,6 @@ console.log("Is Greater Than or Equal To: ", isGreaterThanOrEqual);
 
 let isLessThanOrEqual = a <= b; 
 console.log("Is Less Than or Equal To: ", isLessThanOrEqual); 
+
+// 2. Logical Operators
+// Definition: Logical operators are used to combine multiple Boolean expressions or values.
