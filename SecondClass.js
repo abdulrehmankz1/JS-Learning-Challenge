@@ -91,3 +91,9 @@ console.log("Logical NOT (!): ", notOperator);
 
 // 3. String Operators
 // Definition: The string operator (+) is used to concatenate (join) two or more strings.
+
+let firstName = "Abdul";
+let lastName = "Rehman";
+
+let fullName = firstName + " " + lastName; // Concatenation
+console.log("Full Name: ", fullName);
