@@ -56,3 +56,20 @@ console.log("Exponentiation Assignment (x **= 3): ", x);
 // 3. Comparison Operators
 // Definition: Comparison operators are used to compare two values, returning a Boolean value (true or false).
 
+let isEqual = a === b; // Strict equality
+console.log("Is Equal (===): ", isEqual);
+
+let isNotEqual = a !== b; // Strict inequality
+console.log("Is Not Equal (!==): ", isNotEqual);
+
+let isGreaterThan = a > b; 
+console.log("Is Greater Than: ", isGreaterThan); 
+
+let isLessThan = a < b; 
+console.log("Is Less Than: ", isLessThan); 
+
+let isGreaterThanOrEqual = a >= b; 
+console.log("Is Greater Than or Equal To: ", isGreaterThanOrEqual); 
+
+let isLessThanOrEqual = a <= b; 
+console.log("Is Less Than or Equal To: ", isLessThanOrEqual); 
