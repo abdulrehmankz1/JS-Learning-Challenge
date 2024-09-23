@@ -76,3 +76,15 @@ console.log("Is Less Than or Equal To: ", isLessThanOrEqual);
 
 // 2. Logical Operators
 // Definition: Logical operators are used to combine multiple Boolean expressions or values.
+
+let condition1 = true;
+let condition2 = false;
+
+let andOperator = condition1 && condition2; // Logical AND
+console.log("Logical AND (&&): ", andOperator);
+
+let orOperator = condition1 || condition2; // Logical OR
+console.log("Logical OR (||): ", orOperator);
+
+let notOperator = !condition1; // Logical NOT
+console.log("Logical NOT (!): ", notOperator);
