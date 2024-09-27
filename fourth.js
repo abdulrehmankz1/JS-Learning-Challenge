@@ -6,3 +6,6 @@
 // for Loop:
 // A for loop is used when you know how many times you want to repeat a block of code.
 
+for (let i = 1; i <= 10; i++) {
+    console.log(i);
+}
