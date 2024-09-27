@@ -13,3 +13,8 @@ for (let i = 1; i <= 10; i++) {
 // while Loop:
 // A while loop is used when you want to repeat a block of code as long as a certain condition is true.
 
+let i = 1;
+while (i <= 10) {
+    console.log(i);
+    i++;
+}
