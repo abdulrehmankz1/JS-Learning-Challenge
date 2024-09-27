@@ -18,3 +18,6 @@ while (i <= 10) {
     console.log(i);
     i++;
 }
+
+// do...while Loop:
+// A do...while loop is similar to the while loop, but the block of code is executed at least once, even if the condition is false.
