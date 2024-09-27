@@ -9,3 +9,7 @@
 for (let i = 1; i <= 10; i++) {
     console.log(i);
 }
+
+// while Loop:
+// A while loop is used when you want to repeat a block of code as long as a certain condition is true.
+
