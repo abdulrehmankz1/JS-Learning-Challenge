@@ -13,17 +13,17 @@ for (let i = 1; i <= 10; i++) {
 // while Loop:
 // A while loop is used when you want to repeat a block of code as long as a certain condition is true.
 
-let i = 1;
-while (i <= 10) {
-  console.log(i);
-  i++;
+let b = 1;
+while (b <= 10) {
+  console.log(b);
+  b++;
 }
 
 // do...while Loop:
 // A do...while loop is similar to the while loop, but the block of code is executed at least once, even if the condition is false.
 
-let i = 1;
+let a = 1;
 do {
-  console.log(i);
-  i++;
-} while (i <= 10);
+  console.log(a);
+  a++;
+} while (a <= 10);
