@@ -12,3 +12,11 @@ function greet(name) {
     console.log("Hello, " + name + "!");
 }
 greet("Abdul");
+
+// 2. Function Expression:
+// A function can be assigned to a variable, and this is called a function expression.
+
+const greet = function (name) {
+    console.log("Hello, " + name + "!");
+};
+greet("Rehman");
