@@ -20,3 +20,13 @@ const greet = function (name) {
     console.log("Hello, " + name + "!");
 };
 greet("Rehman");
+
+
+// 3. Arrow Function:
+// This is a shorter syntax for writing functions using the arrow (=>) symbol,
+// often used for more concise function definitions.
+
+const greet = (name) => {
+    console.log("Hello, " + name + "!");
+};
+greet("Khanzada");
