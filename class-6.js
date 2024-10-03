@@ -32,3 +32,9 @@ console.log(fruits);  // Outputs: ["banana", "mango"]
 fruits.unshift("grapes");
 console.log(fruits);  // Outputs: ["grapes", "banana", "mango"]
 
+// 5. slice():
+// Extracts a section of the array without modifying the original array.
+// It takes two arguments: the starting index and the ending index (optional).
+
+let slicedFruits = fruits.slice(1, 3);
+console.log(slicedFruits);  // Outputs: ["banana", "mango"]
