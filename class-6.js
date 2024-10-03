@@ -4,3 +4,12 @@
 
 let fruits = ["apple", "banana", "mango"];
 console.log(fruits);
+
+
+// Common Array Methods:
+
+// push():
+// Adds an element to the end of the array.
+
+fruits.push("orange");
+console.log(fruits);  // Outputs: ["apple", "banana", "mango", "orange"]
