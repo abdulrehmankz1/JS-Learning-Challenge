@@ -8,8 +8,14 @@ console.log(fruits);
 
 // Common Array Methods:
 
-// push():
+// 1. push():
 // Adds an element to the end of the array.
 
 fruits.push("orange");
 console.log(fruits);  // Outputs: ["apple", "banana", "mango", "orange"]
+
+// 2. pop():
+// Removes the last element from the array.
+
+fruits.pop();
+console.log(fruits);  // Outputs: ["apple", "banana", "mango"]
