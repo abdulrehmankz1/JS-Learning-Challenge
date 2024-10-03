@@ -25,3 +25,10 @@ console.log(fruits);  // Outputs: ["apple", "banana", "mango"]
 
 fruits.shift();
 console.log(fruits);  // Outputs: ["banana", "mango"]
+
+// 4. unshift():
+// Adds an element to the beginning of the array.
+
+fruits.unshift("grapes");
+console.log(fruits);  // Outputs: ["grapes", "banana", "mango"]
+
