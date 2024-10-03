@@ -38,3 +38,18 @@ console.log(fruits);  // Outputs: ["grapes", "banana", "mango"]
 
 let slicedFruits = fruits.slice(1, 3);
 console.log(slicedFruits);  // Outputs: ["banana", "mango"]
+
+// 6. splice():
+// Adds/removes elements from the array.
+// It takes three arguments: the starting index, the number of elements to remove,
+// and the elements to add (optional).
+
+// Example (remove):
+
+fruits.splice(1, 1);  // Removes 1 element from index 1
+console.log(fruits);  // Outputs: ["grapes", "mango"]
+
+// Example (add):
+
+fruits.splice(1, 0, "banana");
+console.log(fruits);  // Outputs: ["grapes", "banana", "mango"]
