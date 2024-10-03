@@ -19,3 +19,9 @@ console.log(fruits);  // Outputs: ["apple", "banana", "mango", "orange"]
 
 fruits.pop();
 console.log(fruits);  // Outputs: ["apple", "banana", "mango"]
+
+// 3. shift():
+// Removes the first element from the array.
+
+fruits.shift();
+console.log(fruits);  // Outputs: ["banana", "mango"]
