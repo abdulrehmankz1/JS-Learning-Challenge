@@ -15,3 +15,10 @@ let person = {
 };
 
 console.log(person);
+
+
+// Accessing Properties:
+// You can access object properties using dot notation or bracket notation.
+// Accessing properties
+console.log(person.name);  // Outputs: "Abdul Rehman" (dot notation)
+console.log(person["age"]);  // Outputs: 25 (bracket notation)
