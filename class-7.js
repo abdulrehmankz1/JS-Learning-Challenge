@@ -44,3 +44,15 @@ person.greet();  // Outputs: "Hello, my name is Abdul Rehman"
 
 // this keyword: In methods, this refers to the object itself,
 // so this.name accesses the name property of the object.
+
+
+// Adding and Modifying Properties:
+// You can add new properties or modify existing ones after the object has been created.
+
+// Adding a new property
+user.country = "Pakistan";
+console.log(user.country);  // Outputs: "Pakistan"
+
+// Modifying an existing property
+user.age = 26;
+console.log(user.age);  // Outputs: 26
