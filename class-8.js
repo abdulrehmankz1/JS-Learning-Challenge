@@ -24,3 +24,8 @@ let element1 = document.querySelector(".myClass");
 // 5. querySelectorAll(): Accesses all elements that match a CSS selector (returns a NodeList).
 
 let elements1 = document.querySelectorAll(".myClass");
+
+// DOM Manipulation Methods:
+// You can access elements in the DOM using JavaScript methods like:
+
+// 1. getElementById(): Accesses an element by its id.
