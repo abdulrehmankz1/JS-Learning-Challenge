@@ -28,4 +28,32 @@ let elements1 = document.querySelectorAll(".myClass");
 // DOM Manipulation Methods:
 // You can access elements in the DOM using JavaScript methods like:
 
-// 1. getElementById(): Accesses an element by its id.
+// 1. Changing Text Content:
+//  Use .textContent or .innerHTML to modify the text inside an element.
+
+let heading = document.getElementById("myHeading");
+heading.textContent = "New Heading";
+
+// 2. Changing Style:
+//  Use .style to modify the CSS of an element.
+
+let box = document.getElementById("myBox");
+box.style.backgroundColor = "blue";
+
+// 3. Adding or Removing Classes:
+//  Use .classList.add() or .classList.remove() to manipulate classes.
+
+let button = document.querySelector(".btn");
+button.classList.add("active");
+
+// Adding or Removing Elements:
+//  You can create, append, or remove elements dynamically using JavaScript.
+
+let newElement = document.createElement("p");
+newElement.textContent = "This is a new paragraph";
+document.body.appendChild(newElement);
+
+// Removing an Element:
+
+let elementToRemove = document.getElementById("myElement");
+elementToRemove.remove();
